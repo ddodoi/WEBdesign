@@ -31,13 +31,17 @@ header li {
     text-decoration: none;
     font-family: 'Poiret One', cursive;
     font-size: 36px;
-    color: #8D3737;
 }
 
 #nav_list {
     position: absolute;
     top: 40px;
     right: 31px;
+}
+
+#nav_list a {
+    text-decoration: none;
+    color: #8D3737;
 }
 
 header li:hover {
@@ -65,6 +69,3 @@ header li:hover {
     font-style: italic;
     font-size: 96px;
 }
-
-/*font-family: 'Fanwood Text', serif;
-font-family: 'Poiret One', cursive;*/
