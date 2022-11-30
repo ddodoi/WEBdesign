@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@0;1&family=Poiret+One&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url("../resource/main.png");
+    background-size: cover;
+}
+
+header > div {
+    text-align: center;
+    margin-top: 31px;
+}
+
+nav {
+    width: 100%;
+}
+
+nav li {
+    width: 201px;
+    height: 70px;
+    text-align: center
+}
+
+header li {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Poiret One', cursive;
+    font-size: 36px;
+    color: #8D3737;
+}
+
+#nav_list {
+    position: absolute;
+    top: 40px;
+    right: 31px;
+}
+
+header li:hover {
+    text-decoration: underline;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 430px 430px 430px;
+    margin: 50px 0px 40px 130px;
+}
+
+#summary {
+    font-family: 'Fanwood Text', serif;
+    font-size: 36px;
+    color: #EC8989;
+    position: absolute;
+    left: 130px;
+    padding-bottom: 100px;
+}
+
+#summary span {
+    font-family: 'Fanwood Text', serif;
+    font-style: italic;
+    font-size: 96px;
+}
+
+/*font-family: 'Fanwood Text', serif;
+font-family: 'Poiret One', cursive;*/

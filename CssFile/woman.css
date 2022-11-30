@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charmonman&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url("../resource/for_page.png");
+    background-size: cover;
+    font-family: 'Poiret One', cursive;
+}
+
+header > div {
+    text-align: center;
+    margin-top: 31px;
+    margin-bottom: 81px;
+}
+
+#title {
+    display:inline-block;
+    position: relative;
+    font-size: 96px;
+    color: #8D3737;
+    left: 132px;
+}
+
+.container {
+    margin: 120px 0px 150px 156px;
+    font-size: 48px;
+    color: black;
+}
+
+
+.rightImg {
+
+    text-align: right;
+    margin-right: 156px;
+}
+
+.container span {
+    display: inline-block;
+    font-family: 'Charmonman', cursive;
+    color: black;
+    font-size: 48px;
+    width:100%;
+}
+
+#text1 {
+    position: absolute;
+    left: 655px;
+    top: 516px;
+}
+
+#text2 {
+    position: absolute;
+    left: 558px;
+    top: 1165px;
+}
+
+#text3 {
+    position: absolute;
+    left: 655px;
+    top: 1764px;
+    text-align: left;
+}
+

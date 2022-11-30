@@ -1,6 +1,0 @@
-*{padding:0px; margin:0px;}
-body.main{background-image:url("./resource/main.png");
-    background-size: cover;}
-
-div{display:flex;
-    justify-content:flex-center;}
