@@ -11,6 +11,10 @@ body {
     background-size: cover;
 }
 
+#box {
+    text-algin: center;
+}
+
 header > div {
     text-align: center;
     margin-top: 31px;
